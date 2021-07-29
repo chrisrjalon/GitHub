@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.API", "GitHub.API\GitHub.API.csproj", "{23D730CB-A226-48B1-966C-12E7433BEE09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{39A43162-1E5E-4408-BCC1-11E973228A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.Domain", "GitHub.Domain\GitHub.Domain.csproj", "{832C60FE-40D1-490A-92E7-7F20C566160E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.Common", "GitHub.Common\GitHub.Common.csproj", "{26604538-9684-4B9C-80CF-D1A33DD48022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{32CE082C-71A2-46AF-AB7C-6B89118B6244}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5B657049-B69A-43FF-B285-EF264ADA592A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.Services", "GitHub.Services\GitHub.Services.csproj", "{E30AD0A1-E39E-4557-91DF-C89A494005AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{068CBDEE-53A4-4F0C-9467-FFB5717235A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.Services.Test", "GitHub.Services.Test\GitHub.Services.Test.csproj", "{53D6A3F2-FBC1-4D59-8D24-A16ADFCD01F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D730CB-A226-48B1-966C-12E7433BEE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D730CB-A226-48B1-966C-12E7433BEE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D730CB-A226-48B1-966C-12E7433BEE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D730CB-A226-48B1-966C-12E7433BEE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832C60FE-40D1-490A-92E7-7F20C566160E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832C60FE-40D1-490A-92E7-7F20C566160E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832C60FE-40D1-490A-92E7-7F20C566160E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832C60FE-40D1-490A-92E7-7F20C566160E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26604538-9684-4B9C-80CF-D1A33DD48022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26604538-9684-4B9C-80CF-D1A33DD48022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26604538-9684-4B9C-80CF-D1A33DD48022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26604538-9684-4B9C-80CF-D1A33DD48022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30AD0A1-E39E-4557-91DF-C89A494005AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30AD0A1-E39E-4557-91DF-C89A494005AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30AD0A1-E39E-4557-91DF-C89A494005AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30AD0A1-E39E-4557-91DF-C89A494005AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D6A3F2-FBC1-4D59-8D24-A16ADFCD01F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D6A3F2-FBC1-4D59-8D24-A16ADFCD01F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D6A3F2-FBC1-4D59-8D24-A16ADFCD01F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D6A3F2-FBC1-4D59-8D24-A16ADFCD01F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23D730CB-A226-48B1-966C-12E7433BEE09} = {39A43162-1E5E-4408-BCC1-11E973228A4C}
+		{832C60FE-40D1-490A-92E7-7F20C566160E} = {32CE082C-71A2-46AF-AB7C-6B89118B6244}
+		{26604538-9684-4B9C-80CF-D1A33DD48022} = {32CE082C-71A2-46AF-AB7C-6B89118B6244}
+		{E30AD0A1-E39E-4557-91DF-C89A494005AC} = {5B657049-B69A-43FF-B285-EF264ADA592A}
+		{53D6A3F2-FBC1-4D59-8D24-A16ADFCD01F5} = {068CBDEE-53A4-4F0C-9467-FFB5717235A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C18DA935-6362-4B85-9960-9AE0F47E6819}
+	EndGlobalSection
+EndGlobal
